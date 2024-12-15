@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "payNo": "PAY123456789",
+  "orderNo": "ORD987654321",
+  "userId": 100,
+  "amount": 500.00,
+  "deleted": null,
+  "createTime": null,
+  "updateTime": null
+}

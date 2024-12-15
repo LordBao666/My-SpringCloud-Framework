@@ -1,0 +1,57 @@
+DELETE http://localhost:8001/pay/del/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-15T174159.200.txt
+
+###
+
+GET http://localhost:8001/pay/get/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-15T174131.200.json
+
+###
+
+PUT http://localhost:8001/pay/update
+Content-Type: application/json
+Content-Length: 103
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 2,
+  "payNo": "PAY123456789",
+  "orderNo": "ORD987654321",
+  "userId": 100,
+  "amount": 500
+}
+
+<> 2024-12-15T174001.200.txt
+
+###
+
+PUT http://localhost:8001/pay/add
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "payNo": "PAY123456789",
+  "orderNo": "ORD987654321",
+  "userId": 1001,
+  "amount": 500.75
+}
+
+<> 2024-12-15T173418.200.txt
+
+###
+
